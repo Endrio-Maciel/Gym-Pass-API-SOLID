@@ -1,29 +1,27 @@
-# App
+# Aplicativo
 
-GymPass-style application.
+- Aplicação no estilo GymPass.
 
-## Functional Requirements (FRs)
-- [x] Users should be able to register;
-- [x] Users should be able to authenticate;
-- [x] Users should be able to retrieve their logged-in profile;
-- [x] Users should be able to retrieve the total number of check-ins they have completed;
-- [x] Users should be able to view their check-in history;
-- [x] Users should be able to search for nearby gyms (within 10 km);
-- [x] Users should be able to search for gyms by name;
-- [x] Users should be able to check in at a gym;
-- [x] Admins should be able to validate a user's check-in;
-- [x] Admins should be able to register new gyms.
-
-## Business Rules (BRs)
-- [x] Users should not be able to register with duplicate emails;
-- [x] Users cannot perform two check-ins on the same day;
-- [x] Users cannot check in unless they are within 100 meters of the gym;
-- [x] Check-ins can only be validated within 20 minutes of creation;
-- [x] Only administrators can validate check-ins;
-- [x] Only administrators can register gyms.
-
-## Non-Functional Requirements (NFRs)
-- [x] User passwords must be encrypted;
-- [x] Application data must be stored in a PostgreSQL database;
-- [x] All data lists must be paginated, displaying 20 items per page;
-- [x] Users must be identified using a JWT (JSON Web Token);
+# Requisitos Funcionais (RFs)
+[x] Usuários devem poder se registrar;
+[x] Usuários devem poder se autenticar;
+[x] Usuários devem poder recuperar o perfil autenticado;
+[x] Usuários devem poder ver o total de check-ins realizados;
+[x] Usuários devem poder visualizar o histórico de check-ins;
+[x] Usuários devem poder buscar academias próximas (dentro de um raio de 10 km);
+[x] Usuários devem poder buscar academias pelo nome;
+[x] Usuários devem poder fazer check-in em uma academia;
+[x] Administradores devem poder validar o check-in de um usuário;
+[x] Administradores devem poder cadastrar novas academias.
+# Regras de Negócio (RNs)
+[x] Usuários não podem se registrar com e-mails duplicados;
+[x] Usuários não podem realizar dois check-ins no mesmo dia;
+[x] Usuários só podem fazer check-in se estiverem a no máximo 100 metros da academia;
+[x] Check-ins só podem ser validados em até 20 minutos após a criação;
+[x] Somente administradores podem validar check-ins;
+[x] Somente administradores podem cadastrar academias.
+# Requisitos Não Funcionais (RNFs)
+[x] Senhas de usuários devem ser criptografadas;
+[x] Os dados da aplicação devem ser armazenados em um banco de dados PostgreSQL;
+[x] Todas as listas de dados devem ser paginadas, exibindo 20 itens por página;
+[x] Usuários devem ser identificados por meio de um JWT (JSON Web Token).
